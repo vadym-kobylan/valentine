@@ -39,6 +39,10 @@ body {
   color: white;
 }
 
+img {
+  display: block;
+}
+
 .yes {
   background-color: #8dca13;
   position: relative;
@@ -55,4 +59,34 @@ body {
 
 h1 {
   text-align: center;
+}
+
+.license {
+  color: rgb(32, 32, 32);
+  font-size: 18px;
+  font-weight: 400;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: default;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(42, 42, 42);
+  padding-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+  text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    max-width: 250px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }

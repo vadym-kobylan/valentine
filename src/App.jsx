@@ -50,6 +50,13 @@ function App() {
           <h1 className="loveTitle">LOVE YOU BABY!</h1>
         </>
       )}
+
+      <p className="license">
+        Build by:&nbsp;
+        <a rel="license" target="_blank" href="https://www.instagram.com/a.l.o.n.g.o/">
+          @alongo
+        </a>
+      </p>
     </div>
   );
 }
